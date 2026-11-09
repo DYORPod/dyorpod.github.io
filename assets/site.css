@@ -38,7 +38,7 @@ sup.fn a{color:var(--gold);text-decoration:none;font-weight:700;padding:0 2px}
 footer{background:var(--deep);padding:28px 0;color:var(--t2);font-size:13px;border-top:1px solid var(--bd)}footer a{color:var(--t2)}footer .credit{margin-top:8px}
 
 @media(max-width:820px){.hero,.two{grid-template-columns:1fr}.hero{padding-top:40px}.sunday{padding:22px}}
-html,body{max-width:100%;overflow-x:hidden}main,.hero>*{min-width:0}
+html,body{max-width:100%}body{overflow-x:hidden}@supports (overflow-x:clip){html,body{overflow-x:clip}}main,.hero>*{min-width:0}
 .xfollow{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;border:2px solid var(--gold);color:var(--t1);font-weight:700;text-decoration:none;background:#e5cf5914}.xfollow b{color:var(--gold)}.xfollow:hover{background:#e5cf5933}
 .xband{margin:8px 0 48px;padding:28px;border:1px solid #e5cf5966;border-radius:20px;background:linear-gradient(160deg,var(--el),var(--bg2));display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;justify-content:space-between}.xband h2{margin:0;font-size:28px}.xband p{margin:4px 0 0;color:var(--t2)}
 /* r4 header: universal DYOR mark (Legal keeps pre-pass text logo) */
