@@ -43,9 +43,14 @@ html,body{max-width:100%}body{overflow-x:hidden}@supports (overflow-x:clip){html
 .xband{margin:8px 0 48px;padding:28px;border:1px solid #e5cf5966;border-radius:20px;background:linear-gradient(160deg,var(--el),var(--bg2));display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;justify-content:space-between}.xband h2{margin:0;font-size:28px}.xband p{margin:4px 0 0;color:var(--t2)}
 /* r4 header: universal DYOR mark (Legal keeps pre-pass text logo) */
 .brand{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:8px 0}.brand .mark{display:inline-flex;min-height:44px;align-items:center}.brand .mark img{height:40px;width:auto;display:block}
+.brand .mark{text-decoration:none}
+.tmt{font-family:"Inter",system-ui,sans-serif;font-weight:700;font-size:max(.4em,12px);line-height:1;vertical-align:text-top;margin-left:.06em;letter-spacing:0;user-select:none}
+h1 .tmt{vertical-align:1.05em;line-height:0}
+.brand .mark .tm{align-self:flex-start;margin:7px 0 0 1px;font:700 17px/1 "Inter",system-ui,sans-serif;color:#0BA3A8;user-select:none}
 .showmark{display:inline-flex;align-items:center;gap:8px;min-height:36px;color:var(--t2);text-decoration:none;font-size:13px;font-weight:600}.showmark img{width:32px;height:32px;border-radius:6px}
 header .wrap:has(.brand){flex-wrap:wrap;gap:4px 16px}
-@media(max-width:520px){header .wrap:has(.brand){flex-wrap:nowrap;justify-content:space-between;gap:8px;padding:10px 16px}.brand{padding:0}.brand~nav{width:auto;margin-left:auto;display:flex;flex-wrap:nowrap;justify-content:flex-end;gap:0}.brand~nav a{padding:0 10px;min-width:44px;min-height:44px;justify-content:center}.brand .mark img{height:34px}}
+@media(max-width:520px){header .wrap:has(.brand){flex-wrap:nowrap;justify-content:space-between;gap:8px;padding:10px 16px}.brand{padding:0}.brand~nav{width:auto;margin-left:auto;display:flex;flex-wrap:nowrap;justify-content:flex-end;gap:0}.brand~nav a{padding:0 10px;min-width:44px;min-height:44px;justify-content:center}.brand .mark img{height:34px}
+.brand .mark .tm{margin-top:9px;font-size:15px}}
 /* r4: inner pages carry homepage hero/card look (Legal excluded: no .r4 class) */
 .r4 .pagehead{margin:40px 0 40px;padding:40px;border:1px solid var(--bd);border-top:2px solid #e5cf5999;border-radius:20px;background:linear-gradient(160deg,var(--el),var(--bg2));gap:28px}
 .r4 .pagehead h1{font-size:clamp(34px,4.6vw,56px);letter-spacing:-.01em}.r4 .pagehead .sub{color:var(--t2);font-size:18px;max-width:38em;margin:8px 0}.r4 .pagehead .cta{margin-top:18px}
